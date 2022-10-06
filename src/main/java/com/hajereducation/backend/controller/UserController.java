@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
+/* For local connection with react app*/
+/*  @CrossOrigin("http://localhost:3000") */
 
 public class UserController {
     @Autowired
