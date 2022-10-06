@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin("https://react-crud-app-java-spring.herokuapp.com/")
 /* For local connection with react app*/
 /*  @CrossOrigin("http://localhost:3000") */
 
